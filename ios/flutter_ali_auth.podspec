@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_ali_auth'
-  s.version          = '0.0.1'
+  s.version          = '0.7.1'
   s.summary          = 'Flutter Ali Auth Plugin 阿里云一键登录Flutter插件'
   s.description      = <<-DESC
 Flutter Ali Auth Plugin 阿里云一键登录Flutter插件
@@ -22,7 +22,7 @@ Flutter Ali Auth Plugin 阿里云一键登录Flutter插件
   s.dependency 'MJExtension'
   s.dependency 'MBProgressHUD'
 
-  s.platform = :ios, '12.0'
+  s.platform = :ios, '13.0'
 
   s.vendored_frameworks = 'xcframeworks/*.xcframework'
   s.framework = 'Network'
