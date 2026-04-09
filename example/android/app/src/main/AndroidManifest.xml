@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fluttercandies.flutter_ali_auth_example">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
    <application
         android:label="flutter_ali_auth_example"
         android:name="${applicationName}"
