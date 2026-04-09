@@ -6,10 +6,10 @@ PODS:
     - MJExtension
     - SDWebImage
   - MBProgressHUD (1.2.0)
-  - MJExtension (3.4.1)
-  - SDWebImage (5.17.0):
-    - SDWebImage/Core (= 5.17.0)
-  - SDWebImage/Core (5.17.0)
+  - MJExtension (3.4.2)
+  - SDWebImage (5.21.7):
+    - SDWebImage/Core (= 5.21.7)
+  - SDWebImage/Core (5.21.7)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -28,12 +28,12 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_ali_auth/ios"
 
 SPEC CHECKSUMS:
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  flutter_ali_auth: 7e96ab274f6144e20788046795d739a6007de55b
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_ali_auth: 4da3eda7ef3e5b1c7c9b4dc0e1f6b3c3bdc4b70c
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
-  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+  MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
+  SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
 
-PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+PODFILE CHECKSUM: 990694204ed2969c210a4617f63ec854a802b116
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.16.2

@@ -289,7 +289,7 @@ class _DebugPageState extends State<DebugPage> {
                       sloganConfig: SloganConfig(
                         sloganIsHidden: false,
                         sloganText: 'Slogan text，请自行替换',
-                        sloganTextColor: theme.colorScheme.onBackground.toHex(),
+                        sloganTextColor: theme.colorScheme.onSurface.toHex(),
                       ),
                       changeButtonConfig: ChangeButtonConfig(
                         changeBtnIsHidden: false,

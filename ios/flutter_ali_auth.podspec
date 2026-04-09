@@ -24,18 +24,16 @@ Flutter Ali Auth Plugin 阿里云一键登录Flutter插件
 
   s.platform = :ios, '12.0'
 
-  s.vendored_frameworks = 'frameworks/*.framework'
+  s.vendored_frameworks = 'xcframeworks/*.xcframework'
   s.framework = 'Network'
-  s.resource = 'frameworks/ATAuthSDK.framework/ATAuthSDK.bundle'
+  s.resource = 'xcframeworks/ATAuthSDK.xcframework/ios-arm64/ATAuthSDK.framework/ATAuthSDK.bundle'
 
   s.xcconfig = {
-    'OTHER_LDFLAGS' => '-ObjC',
+#     'OTHER_LDFLAGS' => '-ObjC',
     'ENABLE_BITCODE' => 'NO'
   }
 
   # Flutter.framework does not contain a i386 slice.
-  # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-  s.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'   }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end
