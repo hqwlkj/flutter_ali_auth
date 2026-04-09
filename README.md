@@ -4,13 +4,13 @@ Language: 中文
 
 基于阿里云一键登录的 **Flutter集成的SDK插件**
 
-阿里云一键登录安卓接入文档: [Android_v2.12-1.15](https://help.aliyun.com/document_detail/144231.html)
+阿里云一键登录安卓接入文档: [Android_v2.14.19](https://help.aliyun.com/document_detail/144231.html)
 
-阿里云一键登录IOS接入文档: [iOS_v2.12-1.15](https://help.aliyun.com/document_detail/144186.html)
+阿里云一键登录IOS接入文档: [iOS_v2.14.19](https://help.aliyun.com/document_detail/144186.html)
 
 ## 更新历史 🌄
 
-- 现已更新到与官方同步的SDK [v2.12-1.15](https://help.aliyun.com/document_detail/121113.html) 版本;
+- 现已更新到与官方同步的SDK [v2.14.19](https://help.aliyun.com/document_detail/121113.html) 版本;
 - 授权页适配夜间/暗色模式(仅全屏，弹窗模式需自定以);
 
 ## 目录

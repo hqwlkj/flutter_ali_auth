@@ -4,6 +4,9 @@ that can be found in the LICENSE file. -->
 
 # Changelog
 
+## 0.7.1
+### 🚀 Update sdk to v2.14.19
+
 ## 0.7.0
 ### 🚀 Update sdk to v2.12-1.15
 
